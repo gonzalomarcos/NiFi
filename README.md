@@ -1,5 +1,7 @@
 # NiFi
 
+These scripts will help you to parse events in Nifi, in the first script I focus to parse logs that use XML and extract it to a json (key:value). The second one will be used to parse any log through a regex.
+
 ### XML2Json 
 * https://github.com/BatchIQ/nifi-scripting-samples/blob/master/src/test/resources/executescript/content/xml-to-json/xmlToJson.groovy 
   * taken from BatchIQ and modified to parse XML WEL event logs and get a json, see examples
@@ -104,5 +106,5 @@
 </details>
 
 ### Groovy parser
-* Parse all type of logs through a groovy script, if regex fails, the flowfile will be transferred to failure, just tweak it and add your regex to parse events.
+* Parse all type of logs through a groovy script, if regex fails, the flowfile will be transferred to failure, just tweak it and add all the regular expressions you want to parse events.
 
