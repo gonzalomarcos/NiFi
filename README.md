@@ -104,5 +104,5 @@
 </details>
 
 ### Groovy parser
-* Parse all type of logs through a groovy script, if regex fails, the flowfile will be transferred to failure
+* Parse all type of logs through a groovy script, if regex fails, the flowfile will be transferred to failure, just tweak it and add your regex to parse events.
 
