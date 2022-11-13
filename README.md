@@ -8,7 +8,7 @@ These scripts will help you to parse events in Nifi.
 - XML2JSON 
 	- Parse logs that are formatted in XML and convert them to JSON extracting all the fields. Created to parse Windows Event Logs.
 - Groovy parser
-	- Through a/multiple regex you will be able to parse any event you want.
+	- Through one or multiple regex you will be able to parse any field/fields you want.
 
 ### XML2Json 
 * https://github.com/BatchIQ/nifi-scripting-samples/blob/master/src/test/resources/executescript/content/xml-to-json/xmlToJson.groovy 
